@@ -1,0 +1,64 @@
+# ==========================================
+# Vivado Project Files & Directories
+# ==========================================
+
+# Vivado project runs and generated design data
+*.runs/
+*.data/
+*.cache/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.gen/
+
+# Generated bitstreams, debug probes, and checkpoints in subdirectories
+*.bit
+*.bin
+*.dcp
+*.ltx
+
+# ==========================================
+# Vivado Logs, Journals, and Temporary Files
+# ==========================================
+*.log
+*.jou
+*.str
+*.pb
+*.wdf
+*.vcd
+*.wcfg.bak
+*.bak
+
+# Temporary vivado process and lock files
+vivado*.str
+vivado*.jou
+vivado*.log
+vivado_*.zip
+hs_err_pid*.log
+.Xil/
+
+# ==========================================
+# IP Core Generated Files
+# ==========================================
+# Keeps custom IP packaging directories clean
+component.xml
+xgui/
+
+# ==========================================
+# Vitis / Embedded SW Workspaces
+# ==========================================
+# Ignore Vitis workspace and generated hardware definition exports
+.metadata/
+*.xsa
+*.hdf
+*.sdk/
+vitis_workspace/
+
+# ==========================================
+# OS & Editor Specific Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*~
