@@ -1,0 +1,4 @@
+{
+    "clangd.fallbackFlags": [],
+    "VitisApplication.ZynqMP.Sysroot": "/home/deso/kria_sdk/sysroots/cortexa72-cortexa53-xilinx-linux"
+}

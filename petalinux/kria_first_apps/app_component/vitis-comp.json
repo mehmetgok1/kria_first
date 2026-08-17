@@ -1,0 +1,19 @@
+{
+  "name": "app_component",
+  "type": "HOST",
+  "platform": "/home/deso/delete/fpga/kria_first/petalinux/kria_first_apps/platform/export/platform/platform.xpfm",
+  "domain": "linux_psu_cortexa53",
+  "cpuInstance": "cortex-a53",
+  "cpuType": "cortex-a53",
+  "os": "linux",
+  "sysroot": "/home/deso/kria_sdk/sysroots/cortexa72-cortexa53-xilinx-linux",
+  "configuration": {
+    "componentType": "HOST",
+    "hostToolchainConfigurations": []
+  },
+  "domainRealName": "linux_psu_cortexa53",
+  "applicationFlow": "EMBEDDED",
+  "previousBuildStatusMap": {
+    "hw": "SUCCESS"
+  }
+}

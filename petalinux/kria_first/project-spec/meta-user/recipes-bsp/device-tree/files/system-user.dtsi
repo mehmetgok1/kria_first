@@ -1,0 +1,16 @@
+/include/ "system-conf.dtsi"
+/ {
+    chosen {
+        /* Tell the UIO driver to claim nodes with the "generic-uio" string */
+        bootargs = "earlycon console=ttyPS0,115200 clk_ignore_unused uio_pdrv_genirq.of_id=generic-uio";
+    };
+
+    /* Define the 1MB contiguous memory buffer */
+    udmabuf0 {
+        compatible = "ikwzm,u-dma-buf";
+        device-name = "udmabuf0";
+        size = <0x100000>; 
+    };
+};
+
+
